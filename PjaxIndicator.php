@@ -5,7 +5,7 @@
  * @link https://github.com/restlin/PjaxIndicator
  */
 
-namespace restlin\pjax-indicator
+namespace restlin\pjaxindicator;
 
 use yii\helpers\Html;
 use Yii;

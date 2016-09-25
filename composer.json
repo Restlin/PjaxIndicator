@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "restlin\\pjax-indicator\\": ""
+            "restlin\\pjaxindicator\\": ""
         }
     }
 }
