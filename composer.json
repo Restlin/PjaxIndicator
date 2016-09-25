@@ -1,5 +1,5 @@
 {
-    "name": "restlin/PjaxIndicator",
+    "name": "restlin/pjax-indicator",
     "description": "Yii2/Pjax extension showing the Loading message when pjax loads data",
     "keywords": ["yii2", "extension", "pjax", "load indicator"],
     "homepage": "https://github.com/Restlin/PjaxIndicator",
