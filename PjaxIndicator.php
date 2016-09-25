@@ -12,7 +12,14 @@ use Yii;
 
 /**
  * Simple class showing the "Loading" message when pjax loads data
- *
+ * For translations add file "commands/ru/app.php" (replace "ru" for your language) with code:
+ * 
+ * ```php
+ * return [
+ *      'Loading! Please, wait...' => 'Загрузка! Подождите, пожалуйста...'
+ * ];
+ * ```
+ * 
  * @author Ilya Shumilov <restlinru@yandex.ru>
  */
 class PjaxIndicator extends \yii\widgets\Pjax
