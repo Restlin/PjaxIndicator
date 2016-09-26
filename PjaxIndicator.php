@@ -2,6 +2,7 @@
 
 /**
  * @copyright Copyright (c) 2016 Ilya Shumilov
+ * @version 1.1.3
  * @link https://github.com/restlin/PjaxIndicator
  */
 
@@ -33,7 +34,7 @@ class PjaxIndicator extends \yii\widgets\Pjax
      * CSS style of indicator's container 
      * @var string
      */
-    public $cssStyle = 'position:absolute; left:45%; top:45%; width:200px; height:30px; z-index:100; display:none; padding: 2px; color: #fff; text-align:center';
+    public $cssStyle = 'position:fixed; left:45%; top:45%; width:200px; height:30px; z-index:100; display:none; padding: 2px; color: #fff; text-align:center';
     /**
      * @inheritdoc
      */
