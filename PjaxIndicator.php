@@ -13,7 +13,7 @@ use Yii;
 
 /**
  * Simple class showing the "Loading" message when pjax loads data
- * For translations add file "commands/ru/app.php" (replace "ru" for your language) with code:
+ * For translations add file "messages/ru/app.php" (replace "ru" for your language) with code:
  * 
  * ```php
  * return [
@@ -41,9 +41,8 @@ class PjaxIndicator extends \yii\widgets\Pjax
     public function run()
     {
         echo Html::tag('div',Yii::t('app', $this->message),[
-            'class' => 'navbar-inverse navbar',
-            'style' => $this->cssStyle,
-            'id' => 'pjax-indicator',
+            'class' => 'navbar-inverse navbar pjax-indicator',
+            'style' => $this->cssStyle,            
         ]);        
         parent::run();
     }
@@ -54,8 +53,8 @@ class PjaxIndicator extends \yii\widgets\Pjax
     {
         $view = $this->getView();
         $js = '$(document)'
-        . '.on("pjax:send",function(){$("#pjax-indicator").show();})'
-        . '.on("pjax:complete",function(){$("#pjax-indicator").hide();});';
+        . '.on("pjax:send",function(){$(".pjax-indicator").show();})'
+        . '.on("pjax:complete",function(){$(".pjax-indicator").hide();});';
         $view->registerJs($js);
         parent::registerClientScript();
     }
