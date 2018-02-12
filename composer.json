@@ -4,7 +4,7 @@
     "keywords": ["yii2", "extension", "pjax", "load indicator"],
     "homepage": "https://github.com/Restlin/PjaxIndicator",
     "type": "yii2-extension",
-    "license": "GNU3",
+    "license": "GPL-3.0-or-later",
     "authors": [
         {
             "name": "Ilya Shumilov",
